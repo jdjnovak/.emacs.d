@@ -1,9 +1,0 @@
-from urllib.request import urlopen
-from time import time
-
-stream = urlopen("https://budgetise.ca/")
-start_time = time()
-output = stream.read()
-end_time = time()
-stream.close()
-print(round(end_time - start_time, 3))

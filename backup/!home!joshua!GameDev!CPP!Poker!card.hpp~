@@ -1,7 +1,0 @@
-class Card {
-	static string[] faces_;
-	static string[] suits_;
-
-	Card(string, string);
-
-}
