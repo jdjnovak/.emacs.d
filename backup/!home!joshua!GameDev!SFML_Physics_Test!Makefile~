@@ -1,0 +1,13 @@
+CC=g++
+SRC_DIR=$(wildcard src/*.cpp)
+INCLUDE_DIR=$(wildcard include/*hpp)
+OBJ=$(SRC_DIR: .cpp=.o)
+LDFLAGS= -lsfml-window -lsfml-system -lsfml-graphics
+
+phys-test: $(OBJ)
+    $(CC) -c $@ $^ $(LDFLAGS)
+
+.PHONY: clean
+clean:
+    rm -f $(OBJ) phys-test
+

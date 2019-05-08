@@ -1,0 +1,8 @@
+CC=g++
+OBJS=*.cpp
+CFLAGS=-w
+LFLAGS=-lSDL2
+OUT=app
+
+all: $(OBJS)
+        $(CC) $(OBJS) $(CLFAGS) $(LFLAGS) -o $(OUT)

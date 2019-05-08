@@ -1,0 +1,17 @@
+#include <SFML/Graphics.hpp>
+#include <vector>
+
+#include "animationhandler.hpp"
+
+void AnimationHandler::update(const float dt) {
+  if (currentAnim >= this->animations.size() || currentAnim < 0) return;
+
+  float duration = this->animations[currentAnim].duration;
+
+  /* Check if the animation has progressed to a new frame. If so,
+   * change to the next frame */
+  if (int((timeSinceLoopStart + dt) / duration) > int(timeSinceLoopStart / duration)) {
+    int frame = int(timeSinceLoopStart + dt) / duration);
+    frame %= this->animations[currentAnim].getLength();
+  }
+}

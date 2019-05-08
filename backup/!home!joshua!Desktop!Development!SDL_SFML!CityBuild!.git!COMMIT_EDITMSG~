@@ -1,0 +1,40 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   animation_handler.cpp
+#	new file:   animation_handler.hpp
+#	new file:   game_state.hpp
+#	new file:   game_state_editor.cpp
+#	new file:   game_state_editor.hpp
+#	new file:   game_state_start.cpp
+#	new file:   game_state_start.hpp
+#	new file:   texture_manager.cpp
+#	new file:   texture_manager.hpp
+#
+# Changes not staged for commit:
+#	deleted:    animationhandler.cpp
+#	deleted:    animationhandler.hpp
+#	deleted:    citybuild
+#	modified:   game.cpp
+#	modified:   game.hpp
+#	deleted:    gamestate.hpp
+#	deleted:    gamestateeditor.cpp
+#	deleted:    gamestateeditor.hpp
+#	deleted:    gamestatestart.cpp
+#	deleted:    gamestatestart.hpp
+#	modified:   gui.cpp
+#	modified:   gui.hpp
+#	modified:   main.cpp
+#	modified:   map.cpp
+#	modified:   map.hpp
+#	deleted:    texturemanager.cpp
+#	deleted:    texturemanager.hpp
+#	modified:   tile.cpp
+#	modified:   tile.hpp
+#

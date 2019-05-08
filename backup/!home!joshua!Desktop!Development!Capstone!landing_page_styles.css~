@@ -1,0 +1,79 @@
+div {
+    /* Remove this after, just to check borders */
+    border: thin black solid;
+}
+    
+.container {
+    top: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+    
+.header {
+    height: 100px;
+}
+    
+.footer {
+    height: 100px;
+}
+             
+.section {
+    height: 648px;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 10%;
+    height: 100%;
+    float: left;
+}
+
+#logo-image {
+    padding: 10px;
+    height: 100%;
+    float: left;
+}
+
+#logo-text {
+    height: 100%;
+    vertical-align: center;
+    float: left;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(25%);
+}
+
+.navbar {
+    margin-right: 10%;
+    font-size: 24px;
+    float: right;
+}
+
+.nav-item {
+    top: 50%;
+    transform: translateY(25%);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    float: right;
+}
+ 
+#carousel-info {
+
+}
+
+#features {
+
+}
+
+#future-goals {
+
+}
+
+#team {
+
+}
+
+	    

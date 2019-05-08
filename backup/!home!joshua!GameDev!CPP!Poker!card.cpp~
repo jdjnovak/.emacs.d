@@ -1,0 +1,14 @@
+#include <stdio>
+
+class Card {
+	static string[] faces_ = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
+	static string[] suits_ = {"H", "D", "S", "C"};
+
+	string* face_;
+	string* suit_;
+
+	Card(string face, string suit) {
+		face_ = face;
+		suit_ = suit;
+	}
+}

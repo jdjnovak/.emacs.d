@@ -1,0 +1,13 @@
+#include <SFML/Graphics.hpp>
+
+#include "animationhandler.hpp"
+#include "tile.hpp"
+
+void Tile::draw(sf::RenderWindow& window, float dt) {
+}
+
+void Tile::update() {
+}
+
+std::string tileTypeToStr(TileType type) {
+}
