@@ -11,17 +11,6 @@
 (setq time
       (substring (current-time-string) 11 13))
 
-(defun to-dark()
-  (interactive)
-  (load-theme 'misterioso))
-
-(defun to-light()
-  (interactive)
-  (load-theme 'tango))
-
-;; Start with a light theme
-(load-theme 'tango)
-
 ;; KEYBINDINGS
 (global-set-key (kbd "<f12>") 'to-dark)
 (global-set-key (kbd "C-x <f12>") 'to-light)
