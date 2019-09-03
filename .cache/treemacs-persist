@@ -1,9 +1,19 @@
 * Default Workspace
-** SDL_SFML
- - path :: /home/joshua/Desktop/Development/SDL_SFML
 ** .emacs.d
  - path :: /home/joshua/.emacs.d
-** trying-flask
- - path :: /home/joshua/Desktop/Development/Python/trying-flask
-** flask-web-development-book
- - path :: /home/joshua/Desktop/Development/Python/FlaskWebDevBook/flask-web-development-book
+** Qtile Config
+ - path :: /home/joshua/.config/qtile
+** Rocket
+ - path :: /home/joshua/Dev/Rocket
+** personal-site-backend
+ - path :: /home/joshua/Dev/personal-site-backend
+** personal-site
+ - path :: /home/joshua/Dev/personal-site
+** godot
+ - path :: /home/joshua/Dev/godot
+** amethyst-starter-2d
+ - path :: /home/joshua/Dev/amethyst-starter-2d
+** Exercism
+ - path :: /home/joshua/exercism
+** CityBuilder
+ - path :: /home/joshua/Dev/CityBuilder
