@@ -18,7 +18,7 @@
  '(helm-gtags-path-style (quote relative))
  '(package-selected-packages
    (quote
-	(function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
+	(pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -47,4 +47,5 @@
 (load-user-file "tags.el")
 (load-user-file "treemacs-bindings.el")
 (load-user-file "themes.el")
+(load-user-file "latex.el")
 
