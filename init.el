@@ -16,15 +16,21 @@
  '(helm-gtags-auto-update t)
  '(helm-gtags-ignore-case t)
  '(helm-gtags-path-style (quote relative))
+ '(minimap-major-modes
+   (quote
+	(web-mode lisp-mode php-mode c-mode javascript-mode python-mode rust-mode java-mode c++-mode)))
+ '(minimap-update-delay 0)
+ '(minimap-window-location (quote right))
  '(package-selected-packages
    (quote
-	(pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
+	(minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(minimap-active-region-background ((t (:background "#505662"))))
+ '(minimap-font-face ((t (:height 40 :family "DejaVu Sans Mono")))))
 
 (defconst user-init-dir
   (cond ((boundp 'user-emacs-directory)
@@ -48,4 +54,6 @@
 (load-user-file "treemacs-bindings.el")
 (load-user-file "themes.el")
 (load-user-file "latex.el")
+(load-user-file "fonts.el")
+(load-user-file "mmap.el")
 
