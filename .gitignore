@@ -2,8 +2,4 @@ backup/
 evil/
 elpa/
 recentf
-eclipse.jdt.ls/
 auto-save-list/
-var/
-workspace/
-.lsp-session*
