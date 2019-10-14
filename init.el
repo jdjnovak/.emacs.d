@@ -18,12 +18,12 @@
  '(helm-gtags-path-style (quote relative))
  '(minimap-major-modes
    (quote
-	(web-mode lisp-mode php-mode c-mode javascript-mode python-mode rust-mode java-mode c++-mode)))
+	(latex-mode web-mode lisp-mode php-mode c-mode javascript-mode python-mode rust-mode java-mode c++-mode)))
  '(minimap-update-delay 0)
  '(minimap-window-location (quote right))
  '(package-selected-packages
    (quote
-	(minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
+	(helm-lsp dap-mode lsp-ui company-lsp projectile use-package lsp-java java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -56,4 +56,5 @@
 (load-user-file "latex.el")
 (load-user-file "fonts.el")
 (load-user-file "mmap.el")
+(load-user-file "java-autoc-autoi.el")
 
