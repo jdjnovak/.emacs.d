@@ -3,3 +3,5 @@ evil/
 elpa/
 recentf
 auto-save-list/
+#*
+.cache/treemacs-persist
