@@ -23,7 +23,7 @@
  '(minimap-window-location (quote right))
  '(package-selected-packages
    (quote
-	(projectile use-package java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag dumb-jump flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
+	(exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -31,6 +31,8 @@
  ;; If there is more than one, they won't work right.
  '(minimap-active-region-background ((t (:background "#505662"))))
  '(minimap-font-face ((t (:height 40 :family "DejaVu Sans Mono")))))
+
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
 
 (defconst user-init-dir
   (cond ((boundp 'user-emacs-directory)

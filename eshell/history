@@ -1,8 +1,5 @@
 git clone https://github.com/jdjnovak/RailsBlog.git
 git clone https://github.com/jdjnovak/RailsBlog.git
-git clone https://github.com/jdjnovak/RailsBlog.git
-git clone https://github.com/jdjnovak/RailsBlog.git
-git clone https://github.com/jdjnovak/RailsBlog.git
 git clone git@github.com/jdjnovak/RailsBlog.git
 git clone https://github.com/jdjnovak/RailBlog.git
 ls
@@ -124,5 +121,8 @@ clear
 make
 ls
 make
-     string* face_;
+string* face_;
 make
+ag
+ag ./
+ag /
