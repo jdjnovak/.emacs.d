@@ -5,7 +5,9 @@
 (display-time-mode 1)
 
 ;; LINE NUMBERS PL0X
-(global-linum-mode 1)
+;;(global-linum-mode 1)
+(nlinum-relative-setup-evil)
+
 
 ;; Variable for the current time
 (setq time

@@ -1,11 +1,3 @@
-git clone https://github.com/jdjnovak/RailsBlog.git
-git clone https://github.com/jdjnovak/RailsBlog.git
-git clone git@github.com/jdjnovak/RailsBlog.git
-git clone https://github.com/jdjnovak/RailBlog.git
-ls
-clear
-
-ls
 cd RailBlog/
 ls -a
 clear
@@ -126,3 +118,11 @@ make
 ag
 ag ./
 ag /
+ls
+clear
+javac -d ../../../bin *.java
+java cpsc331.assignment2.run2
+javac -d ../../../bin *.java
+javac *.java
+ls
+alias
