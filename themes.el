@@ -6,7 +6,7 @@
 
 (defun to-light()
   (interactive)
-  (load-theme 'tango))
+  (load-theme 'solarized-light))
 
 ;; Start with a light theme
-(load-theme 'nord)
+(load-theme 'solarized-light)

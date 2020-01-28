@@ -12,7 +12,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-	("82358261c32ebedfee2ca0f87299f74008a2e5ba5c502bde7aaa15db20ee3731" default)))
+	("c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" "82358261c32ebedfee2ca0f87299f74008a2e5ba5c502bde7aaa15db20ee3731" default)))
  '(helm-gtags-auto-update t)
  '(helm-gtags-ignore-case t)
  '(helm-gtags-path-style (quote relative))
@@ -23,13 +23,13 @@
  '(minimap-window-location (quote right))
  '(package-selected-packages
    (quote
-	(nlinum-relative linum-relative dumb-jump exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
+	(solarized-theme nlinum-relative linum-relative dumb-jump exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(minimap-active-region-background ((t (:background "#505662"))))
+ '(minimap-active-region-background ((t nil)))
  '(minimap-font-face ((t (:height 40 :family "DejaVu Sans Mono")))))
 
 (setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
@@ -46,9 +46,9 @@
   "Load a file in current user's config directory"
   (load-file (expand-file-name file user-init-dir)))
 
+(load-user-file "sources.el")
 (load-user-file "personal.el")
 (load-user-file "evil.el")
-(load-user-file "sources.el")
 (load-user-file "backups.el")
 (load-user-file "web-mode.el")
 (load-user-file "company.el")

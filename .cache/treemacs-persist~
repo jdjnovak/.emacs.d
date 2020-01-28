@@ -1,3 +1,27 @@
 * Default Workspace
-** mcbudget.ui
- - path :: /home/joshua/Desktop/Development/Capstone/mcbudget.ui
+** .emacs.d
+ - path :: /home/joshua/.emacs.d
+** Qtile Config
+ - path :: /home/joshua/.config/qtile
+** Rocket
+ - path :: /home/joshua/Dev/Rocket
+** personal-site-backend
+ - path :: /home/joshua/Dev/personal-site-backend
+** personal-site
+ - path :: /home/joshua/Dev/personal-site
+** godot
+ - path :: /home/joshua/Dev/godot
+** amethyst-starter-2d
+ - path :: /home/joshua/Dev/amethyst-starter-2d
+** Exercism
+ - path :: /home/joshua/exercism
+** CityBuilder
+ - path :: /home/joshua/Dev/CityBuilder
+** School
+ - path :: /home/joshua/School
+** SecStudy
+ - path :: /home/joshua/SecStudy
+** Org
+ - path :: /home/joshua/Org
+** Home
+ - path :: /home/joshua
