@@ -23,7 +23,9 @@
  '(minimap-window-location (quote right))
  '(package-selected-packages
    (quote
-	(vue-mode solarized-theme nlinum-relative linum-relative dumb-jump exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))))
+	(haskell-mode vue-mode solarized-theme nlinum-relative linum-relative dumb-jump exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete minimap php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode)))
+ '(treemacs-width 25)
+ '(vue-html-color-interpolations t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
