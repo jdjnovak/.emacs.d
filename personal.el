@@ -28,3 +28,5 @@
 ;; Indentation for C/C++
 (setq c-default-style "k&r"
       c-basic-offset 4)
+
+(setq-default tab-stop-list '(4 8 12 16 20 24))
