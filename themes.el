@@ -11,7 +11,7 @@
   (load-theme 'solarized-light))
 
 (defun set-gui-options ()
-	(load-theme 'spacemacs-dark)
+	(load-theme 'afternoon)
     (set-frame-parameter (selected-frame) 'alpha '(90 . 75))
     (add-to-list 'default-frame-alist '(alpha 90 . 75)))
   
