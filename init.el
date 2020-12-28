@@ -27,7 +27,7 @@
  '(minimap-update-delay 0)
  '(minimap-window-location 'right)
  '(package-selected-packages
-   '(moe-theme company-quickhelp emmet-mode flycheck-rust rustic auctex skewer-mode lsp-ui company-jedi jedi-direx jedi eslint-fix company-flow flow-js2-mode tide spacemacs-theme smart-mode-line-atom-one-dark-theme smart-mode-line ample-theme rjsx-mode typescript-mode omnisharp csharp-mode haskell-mode vue-mode solarized-theme nlinum-relative linum-relative dumb-jump exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode nordless-theme nord-theme ggtags helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))
+   '(moe-theme company-quickhelp emmet-mode flycheck-rust rustic auctex skewer-mode lsp-ui company-jedi jedi-direx jedi eslint-fix company-flow flow-js2-mode tide spacemacs-theme smart-mode-line-atom-one-dark-theme smart-mode-line ample-theme rjsx-mode typescript-mode csharp-mode haskell-mode vue-mode solarized-theme nlinum-relative linum-relative dumb-jump exec-path-from-shell fold-dwim projectile use-package java-snippets java-imports yasnippet auto-complete php-mode pdf-tools auctex-latexmk latex-preview-pane company-auctex markdown-preview-mode markdown-mode ecb function-args ag flycheck-irony irony-eldoc company-irony rust-mode helm-gtags treemacs-evil magit anaconda-mode elpy web-mode))
  '(treemacs-width 30)
  '(typescript-indent-level 2)
  '(vue-html-color-interpolations t))
@@ -53,6 +53,7 @@
   "Load a file in current user's config directory"
   (load-file (expand-file-name file user-init-dir)))
 
+;; Load all external files to config
 (load-user-file "sources.el")
 (load-user-file "personal.el")
 (load-user-file "evil.el")
@@ -61,7 +62,6 @@
 (load-user-file "rust.el")
 (load-user-file "typescript.el")
 (load-user-file "company.el")
-(load-user-file "tags.el")
 (load-user-file "treemacs-bindings.el")
 (load-user-file "themes.el")
 (load-user-file "smartmodeline.el")
