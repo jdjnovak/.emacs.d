@@ -59,6 +59,7 @@
 (load-user-file "evil.el")
 (load-user-file "backups.el")
 (load-user-file "web-mode.el")
+(load-user-file "irony-hooks.el")
 (load-user-file "rust.el")
 (load-user-file "typescript.el")
 (load-user-file "company.el")
