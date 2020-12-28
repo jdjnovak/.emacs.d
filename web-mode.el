@@ -5,6 +5,7 @@
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
 (setq web-mode-code-indent-offset 2)
+(setq web-mode-script-padding 0)
 
 (setq tab-width 2)
 (setq tab-stop-list '(2 4 6 8 10 12 14 16))
