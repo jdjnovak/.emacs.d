@@ -14,8 +14,8 @@
       (substring (current-time-string) 11 13))
 
 ;; KEYBINDINGS
-(global-set-key (kbd "<f12>") 'to-dark)
-(global-set-key (kbd "C-x <f12>") 'to-light)
+;; (global-set-key (kbd "<f12>") 'to-dark)
+;; (global-set-key (kbd "C-x <f12>") 'to-light)
 (global-set-key (kbd "<f11>") 'evil-mode)
 
 ;; GDB Many Windows
