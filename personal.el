@@ -8,7 +8,6 @@
 ;;(global-linum-mode 1)
 (nlinum-relative-setup-evil)
 
-
 ;; Variable for the current time
 (setq time
       (substring (current-time-string) 11 13))
@@ -22,11 +21,11 @@
 (setq gdb-many-windows t
       gdb-show-main t)
 
-;; Tab width
+;; Tab Stuff (Always 4 spc, not tabs)
+(setq indent-tabs-mode nil)
+(setq tab-always-indent nil)
 (setq-default tab-width 4)
 
 ;; Indentation for C/C++
-(setq c-default-style "k&r"
-      c-basic-offset 4)
-
-(setq-default tab-stop-list '(4 8 12 16 20 24))
+;; (setq c-default-style "k&r"
+      ;; c-basic-offset 4)

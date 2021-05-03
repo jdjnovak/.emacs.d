@@ -1,10 +1,9 @@
-;; Set the icons if display is graphical
-
 ;; If on Windows, do this fix
 (cond (on_windows_nt
 	   (setq inhibit-compacting-font-caches t)
 	   ))
 
+;; Set the icons if display is graphical
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 
 ;; Just reusing the same key I used for treemacs
