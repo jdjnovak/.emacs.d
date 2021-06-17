@@ -1,6 +1,9 @@
 # My Emacs Config
 ## jdjnovak
-### Last updated: 27/12/2020
+### Last updated: 15/05/2021
+I've decided to move to Doom Emacs for the time being. It seems like it handles everything I need (for now) quite nicely. 
+
+### ON HIATUS
 ---
 I finally decided to upload my .emacs.d.  
   
