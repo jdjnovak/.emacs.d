@@ -1,26 +1,15 @@
 # My Emacs Config
 ## jdjnovak
-### Last updated: 15/05/2021
-I've decided to move to Doom Emacs for the time being. It seems like it handles everything I need (for now) quite nicely. 
-
-### ON HIATUS
+### Last updated: 04/08/2022
 ---
-I finally decided to upload my .emacs.d.  
-  
-I've split it into a few files based on their function.  
-* init.el - Initializes and calls all my other files
-* backups.el - Puts all backup files into the backup folder (not included in the repo)
-* company.el - Initializes company and changes default delay
-* evil.el - Activates evil (*NOTE: I downloaded the source for evil, but excluded the folder from this repo*)
-* fonts.el - When I want to use a font
-* personal.el - All my random personal keybindings and configs
-* sources.el - add Melpa and Org sources
-* treemacs-bindings.el - Treemacs(evil) custom keybindings
-* web-mode.el - Initialize web-mode and alter some indenting
-* typescript.el - For all necessary typescript autocomplete and other useful things
-* themes.el - Select themes and the GUI transparency
-* nlinum.el - Settings for nlinum-relative mode
-* smartmodeline.el - Settings for the Smart Line - Atom Dark status bar
-* rust.el - Set up rustic mode
-* python-conf.el - File that sets up jedi server for python files
+It's been over a year now that I've used Doom Emacs. I loved the way it did so many things. I like how the author uses keybindings, organizes the config files, and so on. I don't want to stop using it until I have a solid foundation to work off of with my own configuration. With that in mind I'm starting to engineer my config from the ground up, which I think will be a large task.
 
+Some definite things:
+* straight.el (mainly to try it out)
+* vterm
+* Evil mode
+* Treemacs
+* Magit
+* Major modes for: web, python, rust, and haskell (for now)
+* Flycheck, company; the works...
+* A system of keybindings similar to Doom, probably not the exact same though
