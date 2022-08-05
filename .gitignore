@@ -1,11 +1,6 @@
 backup/
-evil/
-elpa/
-eshell/
-recentf
+straight/
 auto-save-list/
-#*
-.cache/treemacs-persist
 ac-comphist.dat
-.cache/lsp
 .lsp*
+.cache/lsp
