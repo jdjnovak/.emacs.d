@@ -1,0 +1,1 @@
+/home/joshua/.emacs.d/straight/repos/emacs-afternoon-theme/afternoon-theme.el
